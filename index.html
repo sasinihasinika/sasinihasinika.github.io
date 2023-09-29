@@ -1,8 +1,292 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Sample</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link  href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   </head>
   <body>
-    <h1>This is the Sample</h1>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <nav class="navbar">
+        <a href="#home" style="--i:1" class="active">Home</a>
+        <a href="$about" style="--i:2">About</a>
+        <a href="$services" style="--i:3">Portfolio</a>
+        <a href="#skills" style="--i:4">Contact</a>
+        <a href="#contact" style="--i:5">Contact</a>
+      </nav>
+    </header>
+    <section class="home">
+      <div class="home-content">
+        <h3>Hello, It's me</h3>
+        <h1>Sasini Hasinika</h1>
+        <h3>And I'm a <span class="text"></span></h3>
+        <p>
+          I'm a Computer Scienece Undergraduate
+          <br />expertise is to create and website design, Frontend design , and backend development
+        </p>
+        <div class="hoem_sci">
+          <a href="#" style="--i:7"><i class="bx bxl-whatsapp"></i></a>
+          <a href="#" style="--i:8"><i class="bx bxl-linkedin"></i></a>
+          <a href="#" style="--i:9"><i class="bx bxl-github"></i></a>
+          <!-- <a href="#"><i class="bx bxl-whatsapp"></i></a> -->
+        </div>
+        <a href="#" class="btn-box">More About Me</a>
+      </div>
+      <div class="my_image">
+        <img src="img.jpg" alt="" srcset="">
+      </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+          <img src="img.jpg" alt="" srcset="">
+        </div>
+        <div class="about-text">
+          <h2>About <span>Me</span></h2>
+          <h4>Full Stack Development</h4>
+          <p>I am a hardworking and organized undergraduate at the University of Colombo School of Computing
+             seeking opportunities to enhance and maintain my designing skills. I am good at adapting faster to
+              newer technologies and grasping them easily. I am passionate about creating web and mobile applications.
+             I enjoy working with a team and believe in effective time management.</p>
+             <a href="#" class="btn-box">More Abnout Me</a>
+        </div>
+    </section>
+  <section class="services" id="services">
+    <div class="container">
+      <h1 class="sub-title">My <span>Services</span></h1>
+      <div class="servces-list">
+        <div>
+          <i class="bx bx-code" style="color: #00eeff;"></i>
+          <h2>UI/UX Design</h2>
+          <p>I am a hardworking and organized undergraduate at the University of Colombo School of Computing
+            seeking opportunities to enhance and maintain my designing skills. I am good at adapting faster to
+             newer technologies and grasping them easily. I am passionate about creating web and mobile applications.
+            I enjoy working with a team and believe</p>
+            <a href="#" class="read">Learn More</a>
+        </div>
+        <div>
+          <i class="bx bx-crop" style="color: #00eeff;"></i>
+          <h2>UI/UX Design</h2>
+          <p>I am a hardworking and organized undergraduate at the University of Colombo School of Computing
+            seeking opportunities to enhance and maintain my designing skills. I am good at adapting faster to
+             newer technologies and grasping them easily. I am passionate about creating web and mobile applications.
+            I enjoy working with a team and believe</p>
+            <a href="#" class="read">Learn More</a>
+        </div>
+        <div>
+          <i class="bx bxl-apple" style="color: #00eeff;"></i>
+          <h2>UI/UX Design</h2>
+          <p>I am a hardworking and organized undergraduate at the University of Colombo School of Computing
+            seeking opportunities to enhance and maintain my designing skills. I am good at adapting faster to
+             newer technologies and grasping them easily. I am passionate about creating web and mobile applications.
+            I enjoy working with a team and believe</p>
+            <a href="#" class="read">Learn More</a>
+        </div>
+      </div>
+        
+      </div>
+    </div>
+  </section>
+  <h1 class="sub-title">My <span>Skills</span></h1>
+  <section>
+    <div class="container1" id="Skills">
+      <h1 class="heading1">Technical Skills</h1>
+      <div class="Technical-bars">
+        <div class="bar"  ><i style="color: #147bbc;" class='bx bxl-html5'></i>
+          <div class="info">
+            <span>HTML</span>
+          </div>
+          <div class="progress-line html">
+            <span></span>
+          </div>
+
+        </div>
+        
+        <div class="bar" ><i style="color: #c95d2e;" class='bx bxl-css3' ></i>
+          <div class="info">
+          <span>CSS</span>
+
+          </div>
+          <div class="progress-line css">
+            <span></span>
+          </div>
+        </div>
+        
+        
+        <div class="bar"> <i style="color: #b0bc1e;" class='bx bxl-javascript' ></i>
+          <div class="info">
+            <span>Javascript</span>
+          </div>
+          <div class="progress-line javascript">
+            <span></span>
+          </div>
+        </div>
+        
+        
+        <div class="bar"><i style="color: #147bbc;" class='bx bxl-java' ></i>
+          <div class="info">
+            <span>Java</span>
+          </div>
+          <div class="progress-line java">
+            <span></span>
+          </div>
+        </div>
+        
+        
+        <div class="bar"><i style="color: #69bcbc;" class='bx bxl-react' ></i>
+          <div class="info">
+          <span>React</span>
+
+          </div>
+          <div class="progress-line react">
+            <span></span>
+          </div>
+        </div>
+       
+       
+        <div class="bar"><i style="color: #147bbc;" class='bx bxl-nodejs' ></i>
+          <div class="info">
+            <span>Node</span>
+          </div>
+          <div class="progress-line node">
+            <span></span>
+          </div>
+        </div>
+       
+       
+        <div class="bar"><i style="color: #147bbc;" class='bx bxl-mongodb' ></i>
+          <div class="info">
+            <span>Mongodb</span>
+          </div>
+          <div class="progress-line mongodb">
+            <span></span>
+          </div>
+        </div>
+       
+        
+        
+        
+       
+        
+        
+        
+      </div>
+    </div>
+    <div class="container1">
+      <h1 class="heading1">Professional Skills</h1>
+      <div class="radial-bars">
+        <svg x="0px" y="0px" viewBox = " 0 0 200 200 ">
+          <circle class="progerss-bar " cx="100" cy="100" r="80"></circle>
+          <circle class="path path-1 " cx="100" cy="100" r="80"></circle>
+        </svg>
+        <div class="percentage">90%</div>
+        <div class="text">creativity</div>
+      </div>
+      <div class="radial-bars">
+        <svg x="0px" y="0px" viewBox = " 0 0 200 200 ">
+          <circle class="progerss-bar " cx="100" cy="100" r="80"></circle>
+          <circle class="path path-1 " cx="100" cy="100" r="80"></circle>
+        </svg>
+        <div class="percentage">65%</div>
+        <div class="text">communication</div>
+      </div>
+      <div class="radial-bars">
+        <svg x="0px" y="0px" viewBox = " 0 0 200 200 ">
+          <circle class="progerss-bar " cx="100" cy="100" r="80"></circle>
+          <circle class="path path-1 " cx="100" cy="100" r="80"></circle>
+        </svg>
+        <div class="percentage">75%</div>
+        <div class="text">problem solving</div>
+      </div>
+      <div class="radial-bars">
+        <svg x="0px" y="0px" viewBox = " 0 0 200 200 ">
+          <circle class="progerss-bar " cx="100" cy="100" r="80"></circle>
+          <circle class="path path-1 " cx="100" cy="100" r="80"></circle>
+        </svg>
+        <div class="percentage">85%</div>
+        <div class="text">Team Work</div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section>
+    <div class="portfolio" id="project">
+      <div class="main-text" id="project">
+        <h2>Latest <span>Project</span></h2>
+        <div class="portfolio-content">
+          <div class="row">
+            <img src="img.jpg" alt="" >
+            <div class="layer">
+              <h5>UI/UX design</h5>
+              <p>I am a hardworking and organized undergraduate at the University of Colombo School of Computing
+                seeking opportunities to enhance and maintain my designing skills. I am good at adapting faster to
+                 newer technologies</p>
+                 <a href="#"><i class="bx bx-link-external" style="color: aliceblue;"></i></a>
+            </div>
+          </div>
+          <div class="row">
+              <img src="img.jpg" alt="" >
+              <div class="layer">
+                <h5>UI/UX design</h5>
+                <p>I am a hardworking and organized undergraduate at the University of Colombo School of Computing
+                  seeking opportunities to enhance and maintain my designing skills. I am good at adapting faster to
+                   newer technologies</p>
+                   <a href="#"><i class="bx bx-link-external" style="color: aliceblue;"></i></a>
+              </div>
+          </div>
+          <div class="row">
+            <img src="img.jpg" alt="" >
+            <div class="layer">
+              <h5>UI/UX design</h5>
+              <p>I am a hardworking and organized undergraduate at the University of Colombo School of Computing
+                seeking opportunities to enhance and maintain my designing skills. I am good at adapting faster to
+                 newer technologies</p>
+                 <a href="#"><i class="bx bx-link-external" style="color: aliceblue;"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="contact" id="contact">
+<div class="contact-text">
+  <h2>Contact <span>Me</span></h2>
+  <h4>Let's work together</h4>
+  <p> am a hardworking and organized undergraduate at the University of Colombo School of Computing
+    seeking opportunities to enhance and maintain my designing skills. I am good at adapting faster to
+     newer technologies</p>
+     <div class="contact-list">
+      <li><i class="bx bxs-send" ></i>sasinihasinika@gmail.com</li>
+      <li><i class="bx bxs-phone" ></i>076 9126593</li>
+
+     </div>
+     <div class="contact-icons">
+      <a href=""><i class="bx bxl-facebook-circle"></i></a>
+      <a href=""><i class="bx bxl-github"></i></a>
+      <a href=""><i class="bx bxl-whatsapp"></i></a>
+      <a href=""><i class="bx bxl-linkedin"></i></a>
+     </div>
+
+</div>
+<div class="contact-form">
+  <form action="">
+    <input type="" placeholder="Enter your name" required="">
+    <input type="email" placeholder="Enter your email" required="">
+    <input type="" placeholder="Enter your Subject">
+    <textarea name="" id="" cols="40" rows="10" placeholder="Enter your message"></textarea>
+    <input type="submit" value="submit" class="send">
+  </form>
+</div>
+  </section>
+  <div class="last-text">
+    <p>ardworking and organized undergraduate at the University of Colombo School of Computing
+      seeking oppo</p>
+  </div>
+  <a href="" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+    <script src="main.js"></script>
   </body>
 </html>
